@@ -31,11 +31,13 @@
       "size" : "40x40"
     },
     {
+      "filename" : "man-cook120x120.jpg",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "man-cook180x180.jpg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"

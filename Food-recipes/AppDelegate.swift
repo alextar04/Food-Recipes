@@ -1,32 +1,66 @@
-//
 //  AppDelegate.swift
 //  Food-recipes
-//
-//  Created by Alexey Taran on 15.04.2020.
-//  Copyright © 2020 Alexey Taran. All rights reserved.
-//
 
 import UIKit
 import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
+    // Экземпляр окна приложения
+    var window: UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Окно на полные границы экрана
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        // Контроллеры для окон
+        let worldFoodController = WorldFoodController()
+        let findController = FindController()
+        let userController = UserController()
+        let informationController = InformationController()
+        // Отобразить подписи окон на нижней панели
+        findController.loadViewIfNeeded()
+        userController.loadViewIfNeeded()
+        informationController.loadViewIfNeeded()
+        
+        // Верхняя панель окон для навигации (черный стиль для автоматически белого текста)
+        let worldFoodNavigationController = UINavigationController(rootViewController: worldFoodController)
+        worldFoodNavigationController.navigationBar.barTintColor = UIColor(red: 26/255, green: 100/255, blue: 23/255, alpha: 1.0)
+        worldFoodNavigationController.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+        worldFoodNavigationController.navigationBar.barStyle = .black
+        let findNavigationController = UINavigationController(rootViewController: findController)
+        let userNavigationController = UINavigationController(rootViewController: userController)
+        let informationNavigationController = UINavigationController(rootViewController: informationController)
+        
+        // Контроллер для нижней панели управления окнами
+        let tabBarController = UITabBarController()
+        tabBarController.setViewControllers([worldFoodNavigationController,
+                                             userNavigationController,
+                                             findNavigationController,
+                                             informationNavigationController], animated: true)
+        // Цвет заднего фона таббара
+        tabBarController.tabBar.barTintColor = UIColor(red: 238/255, green: 238/255, blue: 238/255, alpha: 1.0)
+        // Цвет элементов на таббаре
+        tabBarController.tabBar.tintColor = .black
+        
+        
+        // Стартовый контроллер включает в себя табБар
+        self.window?.rootViewController = tabBarController
+        // Полное отображения окна над всеми окнами
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
-
-    // MARK: UISceneSession Lifecycle
-
+    
+    
+    @available(iOS 13.0, *)
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
 
+    @available(iOS 13.0, *)
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
         // Called when the user discards a scene session.
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.

@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		CEDDDE1B2447882800CB9489 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDDE1A2447882800CB9489 /* AppDelegate.swift */; };
 		CEDDDE1D2447882800CB9489 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDDE1C2447882800CB9489 /* SceneDelegate.swift */; };
-		CEDDDE1F2447882800CB9489 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDDE1E2447882800CB9489 /* ViewController.swift */; };
 		CEDDDE222447882800CB9489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDDDE202447882800CB9489 /* Main.storyboard */; };
 		CEDDDE252447882800CB9489 /* Food_recipes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEDDDE232447882800CB9489 /* Food_recipes.xcdatamodeld */; };
 		CEDDDE272447883000CB9489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDDDE262447883000CB9489 /* Assets.xcassets */; };
 		CEDDDE2A2447883000CB9489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDDDE282447883000CB9489 /* LaunchScreen.storyboard */; };
+		CEE522B32449B47100BBE1EF /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = CEE522B22449B47100BBE1EF /* Controllers */; };
+		CEE522BA2449B6DC00BBE1EF /* WorldFoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE522B72449B6DC00BBE1EF /* WorldFoodController.swift */; };
+		CEE522BB2449B6DC00BBE1EF /* FindController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE522B62449B6DC00BBE1EF /* FindController.swift */; };
+		CEE522BD2449B72D00BBE1EF /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE522BC2449B72D00BBE1EF /* UserController.swift */; };
+		CEE522BF2449B74C00BBE1EF /* InformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE522BE2449B74C00BBE1EF /* InformationController.swift */; };
+		CEE522C32449D74C00BBE1EF /* images in Resources */ = {isa = PBXBuildFile; fileRef = CEE522C22449D74C00BBE1EF /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CEDDDE172447882800CB9489 /* Food-recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food-recipes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDDDE172447882800CB9489 /* Рецепты мира.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Рецепты мира.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDDDE1A2447882800CB9489 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEDDDE1C2447882800CB9489 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEDDDE1E2447882800CB9489 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEDDDE212447882800CB9489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEDDDE242447882800CB9489 /* Food_recipes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Food_recipes.xcdatamodel; sourceTree = "<group>"; };
 		CEDDDE262447883000CB9489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDDDE292447883000CB9489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEDDDE2B2447883000CB9489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE522B22449B47100BBE1EF /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
+		CEE522B62449B6DC00BBE1EF /* FindController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindController.swift; sourceTree = "<group>"; };
+		CEE522B72449B6DC00BBE1EF /* WorldFoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldFoodController.swift; sourceTree = "<group>"; };
+		CEE522BC2449B72D00BBE1EF /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		CEE522BE2449B74C00BBE1EF /* InformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationController.swift; sourceTree = "<group>"; };
+		CEE522C22449D74C00BBE1EF /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +60,7 @@
 		CEDDDE182447882800CB9489 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEDDDE172447882800CB9489 /* Food-recipes.app */,
+				CEDDDE172447882800CB9489 /* Рецепты мира.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,9 +68,14 @@
 		CEDDDE192447882800CB9489 /* Food-recipes */ = {
 			isa = PBXGroup;
 			children = (
+				CEE522C22449D74C00BBE1EF /* images */,
+				CEE522B22449B47100BBE1EF /* Controllers */,
+				CEE522B72449B6DC00BBE1EF /* WorldFoodController.swift */,
+				CEE522BC2449B72D00BBE1EF /* UserController.swift */,
+				CEE522B62449B6DC00BBE1EF /* FindController.swift */,
+				CEE522BE2449B74C00BBE1EF /* InformationController.swift */,
 				CEDDDE1A2447882800CB9489 /* AppDelegate.swift */,
 				CEDDDE1C2447882800CB9489 /* SceneDelegate.swift */,
-				CEDDDE1E2447882800CB9489 /* ViewController.swift */,
 				CEDDDE202447882800CB9489 /* Main.storyboard */,
 				CEDDDE262447883000CB9489 /* Assets.xcassets */,
 				CEDDDE282447883000CB9489 /* LaunchScreen.storyboard */,
@@ -73,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEDDDE162447882800CB9489 /* Food-recipes */ = {
+		CEDDDE162447882800CB9489 /* Рецепты мира */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEDDDE2E2447883000CB9489 /* Build configuration list for PBXNativeTarget "Food-recipes" */;
+			buildConfigurationList = CEDDDE2E2447883000CB9489 /* Build configuration list for PBXNativeTarget "Рецепты мира" */;
 			buildPhases = (
 				CEDDDE132447882800CB9489 /* Sources */,
 				CEDDDE142447882800CB9489 /* Frameworks */,
@@ -85,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = "Food-recipes";
+			name = "Рецепты мира";
 			productName = "Food-recipes";
-			productReference = CEDDDE172447882800CB9489 /* Food-recipes.app */;
+			productReference = CEDDDE172447882800CB9489 /* Рецепты мира.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,20 +120,21 @@
 					};
 				};
 			};
-			buildConfigurationList = CEDDDE122447882700CB9489 /* Build configuration list for PBXProject "Food-recipes" */;
+			buildConfigurationList = CEDDDE122447882700CB9489 /* Build configuration list for PBXProject "Рецепты мира" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = CEDDDE0E2447882700CB9489;
 			productRefGroup = CEDDDE182447882800CB9489 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEDDDE162447882800CB9489 /* Food-recipes */,
+				CEDDDE162447882800CB9489 /* Рецепты мира */,
 			);
 		};
 /* End PBXProject section */
@@ -128,8 +144,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE522C32449D74C00BBE1EF /* images in Resources */,
 				CEDDDE2A2447883000CB9489 /* LaunchScreen.storyboard in Resources */,
 				CEDDDE272447883000CB9489 /* Assets.xcassets in Resources */,
+				CEE522B32449B47100BBE1EF /* Controllers in Resources */,
 				CEDDDE222447882800CB9489 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEDDDE1F2447882800CB9489 /* ViewController.swift in Sources */,
+				CEE522BF2449B74C00BBE1EF /* InformationController.swift in Sources */,
+				CEE522BB2449B6DC00BBE1EF /* FindController.swift in Sources */,
+				CEE522BA2449B6DC00BBE1EF /* WorldFoodController.swift in Sources */,
 				CEDDDE1B2447882800CB9489 /* AppDelegate.swift in Sources */,
 				CEDDDE1D2447882800CB9489 /* SceneDelegate.swift in Sources */,
+				CEE522BD2449B72D00BBE1EF /* UserController.swift in Sources */,
 				CEDDDE252447882800CB9489 /* Food_recipes.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,6 +195,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -220,13 +242,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -234,6 +257,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -274,12 +298,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -288,16 +313,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W38GMM7K83;
 				INFOPLIST_FILE = "Food-recipes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Alexey-Taran.Food-recipes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,23 +334,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W38GMM7K83;
 				INFOPLIST_FILE = "Food-recipes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Alexey-Taran.Food-recipes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEDDDE122447882700CB9489 /* Build configuration list for PBXProject "Food-recipes" */ = {
+		CEDDDE122447882700CB9489 /* Build configuration list for PBXProject "Рецепты мира" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEDDDE2C2447883000CB9489 /* Debug */,
@@ -330,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEDDDE2E2447883000CB9489 /* Build configuration list for PBXNativeTarget "Food-recipes" */ = {
+		CEDDDE2E2447883000CB9489 /* Build configuration list for PBXNativeTarget "Рецепты мира" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEDDDE2F2447883000CB9489 /* Debug */,
