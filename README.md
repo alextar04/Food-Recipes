@@ -12,7 +12,7 @@
 
 Скриншоты:
 
-![Иллюстрация к проекту]{: height="100px" width="100px"}(https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/1.PNG)
+![Иллюстрация к проекту](https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/1.PNG){: height="100px" width="100px"}.
 
 ![Иллюстрация к проекту](https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/2.PNG)
 
