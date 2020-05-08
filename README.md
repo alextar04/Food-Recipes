@@ -12,25 +12,25 @@
 
 Скриншоты:
 
-![Иллюстрация к проекту](https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/1.PNG)
+
 <img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/1.PNG" width="40%">
 
-![Иллюстрация к проекту](https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/2.PNG)
+<img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/2.PNG" width="40%">
 
-![Иллюстрация к проекту](https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/3.PNG)
+<img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/3.PNG" width="40%">
 
-![Иллюстрация к проекту](https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/4.PNG)
+<img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/4.PNG" width="40%">
 
-![Иллюстрация к проекту](https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/5.PNG)
+<img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/5.PNG" width="40%">
 
-![Иллюстрация к проекту](https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/6.PNG)
+<img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/6.PNG" width="40%">
 
-![Иллюстрация к проекту](https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/7.PNG)
+<img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/7.PNG" width="40%">
 
-![Иллюстрация к проекту](https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/8.PNG)
+<img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/8.PNG" width="40%">
 
-![Иллюстрация к проекту](https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/9.PNG)
+<img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/9.PNG" width="40%">
 
-![Иллюстрация к проекту](https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/10.PNG)
+<img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/10.PNG" width="40%">
 
-![Иллюстрация к проекту](https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/11.PNG)
+<img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/11.PNG" width="40%">
