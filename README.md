@@ -21,12 +21,6 @@
 
 <img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/4.PNG" width="40%">
 
-<img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/5.PNG" width="40%">
-
-<img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/6.PNG" width="40%">
-
-<img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/7.PNG" width="40%">
-
 <img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/8.PNG" width="40%">
 
 <img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/9.PNG" width="40%">
