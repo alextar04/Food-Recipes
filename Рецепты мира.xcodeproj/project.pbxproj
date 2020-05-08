@@ -7,21 +7,199 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2CD77424544BFB00D72E0E /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CD77324544BFB00D72E0E /* CountryDetailViewController.swift */; };
+		CE2CD776245452CE00D72E0E /* editUserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2CD775245452CE00D72E0E /* editUserView.xib */; };
+		CE2CD7782454544A00D72E0E /* UserEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CD7772454544A00D72E0E /* UserEditViewController.swift */; };
+		CE2FF3A62453047D005CA49E /* recipeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2FF3A52453047D005CA49E /* recipeCell.xib */; };
+		CE2FF3A82453126A005CA49E /* modificationRecipeRoom.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2FF3A72453126A005CA49E /* modificationRecipeRoom.xib */; };
+		CE2FF3AA245316DE005CA49E /* EditRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2FF3A9245316DE005CA49E /* EditRecipeViewController.swift */; };
+		CE2FF3AC245329BF005CA49E /* information.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2FF3AB245329BF005CA49E /* information.xib */; };
+		CE2FF3AE245333D6005CA49E /* searchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2FF3AD245333D6005CA49E /* searchView.xib */; };
+		CE8BD44A245ECFB400CCBD28 /* databaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8BD449245ECFB400CCBD28 /* databaseConfiguration.swift */; };
+		CE8BD468245ED87C00CCBD28 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8BD456245ED78C00CCBD28 /* SQLite.framework */; };
+		CE8BD469245ED87C00CCBD28 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE8BD456245ED78C00CCBD28 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE8BD46C245EF00E00CCBD28 /* food-recipes-db.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CE8BD46B245EF00E00CCBD28 /* food-recipes-db.sqlite */; };
+		CE8BD4CB245EF49000CCBD28 /* foodRussia in Resources */ = {isa = PBXBuildFile; fileRef = CE8BD47D245EF49000CCBD28 /* foodRussia */; };
+		CE8BD4CF245EF49000CCBD28 /* foodBrazil in Resources */ = {isa = PBXBuildFile; fileRef = CE8BD482245EF49000CCBD28 /* foodBrazil */; };
+		CE8BD4DA245EF49000CCBD28 /* foodAustralia in Resources */ = {isa = PBXBuildFile; fileRef = CE8BD48E245EF49000CCBD28 /* foodAustralia */; };
+		CE8BD4EC245EF49000CCBD28 /* foodChina in Resources */ = {isa = PBXBuildFile; fileRef = CE8BD4A2245EF49000CCBD28 /* foodChina */; };
+		CE8BD4FA245EF49000CCBD28 /* foodHungary in Resources */ = {isa = PBXBuildFile; fileRef = CE8BD4B1245EF49000CCBD28 /* foodHungary */; };
+		CE8BD506245EF49000CCBD28 /* get_ingredients.py in Resources */ = {isa = PBXBuildFile; fileRef = CE8BD4BD245EF49000CCBD28 /* get_ingredients.py */; };
+		CE8BD508245F113700CCBD28 /* databaseTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8BD507245F113600CCBD28 /* databaseTables.swift */; };
+		CE8BD50A245F14F100CCBD28 /* parsingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8BD509245F14F100CCBD28 /* parsingFunctions.swift */; };
+		CE96B5462450802700D87E5B /* userRoom.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE96B5452450802700D87E5B /* userRoom.xib */; };
+		CEC2C1EA246058E600965C7E /* databaseRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2C1E9246058E600965C7E /* databaseRequests.swift */; };
 		CEDDDE1B2447882800CB9489 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDDE1A2447882800CB9489 /* AppDelegate.swift */; };
 		CEDDDE1D2447882800CB9489 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDDE1C2447882800CB9489 /* SceneDelegate.swift */; };
 		CEDDDE222447882800CB9489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDDDE202447882800CB9489 /* Main.storyboard */; };
 		CEDDDE252447882800CB9489 /* Food_recipes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEDDDE232447882800CB9489 /* Food_recipes.xcdatamodeld */; };
 		CEDDDE272447883000CB9489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDDDE262447883000CB9489 /* Assets.xcassets */; };
 		CEDDDE2A2447883000CB9489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDDDE282447883000CB9489 /* LaunchScreen.storyboard */; };
-		CEE522B32449B47100BBE1EF /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = CEE522B22449B47100BBE1EF /* Controllers */; };
-		CEE522BA2449B6DC00BBE1EF /* WorldFoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE522B72449B6DC00BBE1EF /* WorldFoodController.swift */; };
-		CEE522BB2449B6DC00BBE1EF /* FindController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE522B62449B6DC00BBE1EF /* FindController.swift */; };
-		CEE522BD2449B72D00BBE1EF /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE522BC2449B72D00BBE1EF /* UserController.swift */; };
-		CEE522BF2449B74C00BBE1EF /* InformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE522BE2449B74C00BBE1EF /* InformationController.swift */; };
 		CEE522C32449D74C00BBE1EF /* images in Resources */ = {isa = PBXBuildFile; fileRef = CEE522C22449D74C00BBE1EF /* images */; };
+		CEF1E6D3244F7441000855B1 /* InformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1E6CE244F7441000855B1 /* InformationController.swift */; };
+		CEF1E6D5244F7441000855B1 /* WorldFoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1E6D0244F7441000855B1 /* WorldFoodController.swift */; };
+		CEF1E6D6244F7441000855B1 /* FindController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1E6D1244F7441000855B1 /* FindController.swift */; };
+		CEF1E6D7244F7441000855B1 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1E6D2244F7441000855B1 /* UserController.swift */; };
+		CEF1E6D8244F7996000855B1 /* tableCountryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF1E6CC244F7427000855B1 /* tableCountryCell.xib */; };
+		CEFFB17B24517B4E000321A4 /* recipeRoom.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFFB17A24517B4D000321A4 /* recipeRoom.xib */; };
+		CEFFB17F24519525000321A4 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFB17E24519525000321A4 /* RecipeViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CE8BD455245ED78C00CCBD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8BD44B245ED78C00CCBD28 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		CE8BD457245ED78C00CCBD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8BD44B245ED78C00CCBD28 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		CE8BD459245ED78C00CCBD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8BD44B245ED78C00CCBD28 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		CE8BD45B245ED78C00CCBD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8BD44B245ED78C00CCBD28 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		CE8BD45D245ED78C00CCBD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8BD44B245ED78C00CCBD28 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		CE8BD45F245ED78C00CCBD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8BD44B245ED78C00CCBD28 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		CE8BD461245ED78C00CCBD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8BD44B245ED78C00CCBD28 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE8BD46A245ED87C00CCBD28 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE8BD469245ED87C00CCBD28 /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		CE2CD77324544BFB00D72E0E /* CountryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
+		CE2CD775245452CE00D72E0E /* editUserView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = editUserView.xib; sourceTree = "<group>"; };
+		CE2CD7772454544A00D72E0E /* UserEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEditViewController.swift; sourceTree = "<group>"; };
+		CE2FF3A52453047D005CA49E /* recipeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = recipeCell.xib; sourceTree = "<group>"; };
+		CE2FF3A72453126A005CA49E /* modificationRecipeRoom.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = modificationRecipeRoom.xib; sourceTree = "<group>"; };
+		CE2FF3A9245316DE005CA49E /* EditRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecipeViewController.swift; sourceTree = "<group>"; };
+		CE2FF3AB245329BF005CA49E /* information.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = information.xib; sourceTree = "<group>"; };
+		CE2FF3AD245333D6005CA49E /* searchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = searchView.xib; sourceTree = "<group>"; };
+		CE8BD449245ECFB400CCBD28 /* databaseConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = databaseConfiguration.swift; sourceTree = "<group>"; };
+		CE8BD44B245ED78C00CCBD28 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		CE8BD46B245EF00E00CCBD28 /* food-recipes-db.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "food-recipes-db.sqlite"; sourceTree = "<group>"; };
+		CE8BD46F245EF49000CCBD28 /* flagHungary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flagHungary.png; sourceTree = "<group>"; };
+		CE8BD470245EF49000CCBD28 /* flagRussia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flagRussia.png; sourceTree = "<group>"; };
+		CE8BD471245EF49000CCBD28 /* flagAustralia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flagAustralia.png; sourceTree = "<group>"; };
+		CE8BD472245EF49000CCBD28 /* flagBrazil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flagBrazil.png; sourceTree = "<group>"; };
+		CE8BD473245EF49000CCBD28 /* flagChina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flagChina.png; sourceTree = "<group>"; };
+		CE8BD475245EF49000CCBD28 /* FoodRussia1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FoodRussia1.jpg; sourceTree = "<group>"; };
+		CE8BD476245EF49000CCBD28 /* foodRussia2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodRussia2.jpg; sourceTree = "<group>"; };
+		CE8BD477245EF49000CCBD28 /* foodRussia3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodRussia3.jpg; sourceTree = "<group>"; };
+		CE8BD478245EF49000CCBD28 /* drinkRussia3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinkRussia3.jpg; sourceTree = "<group>"; };
+		CE8BD479245EF49000CCBD28 /* drinkRussia2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinkRussia2.jpg; sourceTree = "<group>"; };
+		CE8BD47A245EF49000CCBD28 /* foodRussia4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodRussia4.jpg; sourceTree = "<group>"; };
+		CE8BD47B245EF49000CCBD28 /* drinkRussia1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinkRussia1.jpg; sourceTree = "<group>"; };
+		CE8BD47C245EF49000CCBD28 /* foodRussia5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodRussia5.jpg; sourceTree = "<group>"; };
+		CE8BD47D245EF49000CCBD28 /* foodRussia */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = foodRussia; sourceTree = "<group>"; };
+		CE8BD47F245EF49000CCBD28 /* foodBrazil9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodBrazil9.jpg; sourceTree = "<group>"; };
+		CE8BD480245EF49000CCBD28 /* foodBrazil8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodBrazil8.jpg; sourceTree = "<group>"; };
+		CE8BD481245EF49000CCBD28 /* foodBrazil10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodBrazil10.jpg; sourceTree = "<group>"; };
+		CE8BD482245EF49000CCBD28 /* foodBrazil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = foodBrazil; sourceTree = "<group>"; };
+		CE8BD483245EF49000CCBD28 /* foodBrazil1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodBrazil1.jpg; sourceTree = "<group>"; };
+		CE8BD484245EF49000CCBD28 /* foodBrazil3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodBrazil3.jpg; sourceTree = "<group>"; };
+		CE8BD485245EF49000CCBD28 /* foodBrazil2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodBrazil2.jpg; sourceTree = "<group>"; };
+		CE8BD486245EF49000CCBD28 /* drinkBrazil2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinkBrazil2.jpg; sourceTree = "<group>"; };
+		CE8BD487245EF49000CCBD28 /* foodBrazil6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodBrazil6.jpg; sourceTree = "<group>"; };
+		CE8BD488245EF49000CCBD28 /* foodBrazil7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodBrazil7.jpg; sourceTree = "<group>"; };
+		CE8BD489245EF49000CCBD28 /* drinkBrazil3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinkBrazil3.jpg; sourceTree = "<group>"; };
+		CE8BD48A245EF49000CCBD28 /* drinkBrazil1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinkBrazil1.jpg; sourceTree = "<group>"; };
+		CE8BD48B245EF49000CCBD28 /* foodBrazil5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodBrazil5.jpg; sourceTree = "<group>"; };
+		CE8BD48C245EF49000CCBD28 /* foodBrazil4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodBrazil4.jpg; sourceTree = "<group>"; };
+		CE8BD48E245EF49000CCBD28 /* foodAustralia */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = foodAustralia; sourceTree = "<group>"; };
+		CE8BD48F245EF49000CCBD28 /* foodAustralia8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodAustralia8.jpg; sourceTree = "<group>"; };
+		CE8BD490245EF49000CCBD28 /* foodAustralia9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodAustralia9.jpg; sourceTree = "<group>"; };
+		CE8BD491245EF49000CCBD28 /* foodAustralia4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodAustralia4.jpg; sourceTree = "<group>"; };
+		CE8BD492245EF49000CCBD28 /* foodAustralia5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodAustralia5.jpg; sourceTree = "<group>"; };
+		CE8BD493245EF49000CCBD28 /* foodAustralia7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodAustralia7.jpg; sourceTree = "<group>"; };
+		CE8BD494245EF49000CCBD28 /* foodAustralia6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodAustralia6.jpg; sourceTree = "<group>"; };
+		CE8BD495245EF49000CCBD28 /* drinkAustralia2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinkAustralia2.jpg; sourceTree = "<group>"; };
+		CE8BD496245EF49000CCBD28 /* foodAustralia2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodAustralia2.jpg; sourceTree = "<group>"; };
+		CE8BD497245EF49000CCBD28 /* foodAustralia10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodAustralia10.jpg; sourceTree = "<group>"; };
+		CE8BD498245EF49000CCBD28 /* foodAustralia3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodAustralia3.jpg; sourceTree = "<group>"; };
+		CE8BD499245EF49000CCBD28 /* drinkAustralia3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinkAustralia3.jpg; sourceTree = "<group>"; };
+		CE8BD49A245EF49000CCBD28 /* drinkAustralia1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinkAustralia1.jpg; sourceTree = "<group>"; };
+		CE8BD49B245EF49000CCBD28 /* foodAustralia1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodAustralia1.jpg; sourceTree = "<group>"; };
+		CE8BD49D245EF49000CCBD28 /* foodBook */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = foodBook; sourceTree = "<group>"; };
+		CE8BD49E245EF49000CCBD28 /* userPhoto1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userPhoto1.jpg; sourceTree = "<group>"; };
+		CE8BD4A0245EF49000CCBD28 /* drinkChina1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinkChina1.jpg; sourceTree = "<group>"; };
+		CE8BD4A1245EF49000CCBD28 /* drinkChina3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinkChina3.jpg; sourceTree = "<group>"; };
+		CE8BD4A2245EF49000CCBD28 /* foodChina */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = foodChina; sourceTree = "<group>"; };
+		CE8BD4A3245EF49000CCBD28 /* drinkChina2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinkChina2.jpg; sourceTree = "<group>"; };
+		CE8BD4A4245EF49000CCBD28 /* foodChina9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodChina9.jpg; sourceTree = "<group>"; };
+		CE8BD4A5245EF49000CCBD28 /* foodChina8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodChina8.jpg; sourceTree = "<group>"; };
+		CE8BD4A6245EF49000CCBD28 /* foodChina5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodChina5.jpg; sourceTree = "<group>"; };
+		CE8BD4A7245EF49000CCBD28 /* foodChina4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodChina4.jpg; sourceTree = "<group>"; };
+		CE8BD4A8245EF49000CCBD28 /* foodChina6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodChina6.jpg; sourceTree = "<group>"; };
+		CE8BD4A9245EF49000CCBD28 /* foodChina7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodChina7.jpg; sourceTree = "<group>"; };
+		CE8BD4AA245EF49000CCBD28 /* foodChina3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodChina3.jpg; sourceTree = "<group>"; };
+		CE8BD4AB245EF49000CCBD28 /* foodChina2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodChina2.jpg; sourceTree = "<group>"; };
+		CE8BD4AC245EF49000CCBD28 /* foodChina1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodChina1.jpg; sourceTree = "<group>"; };
+		CE8BD4AD245EF49000CCBD28 /* foodChina10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodChina10.jpg; sourceTree = "<group>"; };
+		CE8BD4AF245EF49000CCBD28 /* drinkHungary3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinkHungary3.jpg; sourceTree = "<group>"; };
+		CE8BD4B0245EF49000CCBD28 /* drinkHungary2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinkHungary2.jpg; sourceTree = "<group>"; };
+		CE8BD4B1245EF49000CCBD28 /* foodHungary */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = foodHungary; sourceTree = "<group>"; };
+		CE8BD4B2245EF49000CCBD28 /* drinkHungary1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinkHungary1.jpg; sourceTree = "<group>"; };
+		CE8BD4B3245EF49000CCBD28 /* foodHungary9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodHungary9.jpg; sourceTree = "<group>"; };
+		CE8BD4B4245EF49000CCBD28 /* foodHungary8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodHungary8.jpg; sourceTree = "<group>"; };
+		CE8BD4B5245EF49000CCBD28 /* foodHungary3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodHungary3.jpg; sourceTree = "<group>"; };
+		CE8BD4B6245EF49000CCBD28 /* foodHungary2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodHungary2.jpg; sourceTree = "<group>"; };
+		CE8BD4B7245EF49000CCBD28 /* foodHungary1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodHungary1.jpg; sourceTree = "<group>"; };
+		CE8BD4B8245EF49000CCBD28 /* foodHungary5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodHungary5.jpg; sourceTree = "<group>"; };
+		CE8BD4B9245EF49000CCBD28 /* foodHungary4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodHungary4.jpg; sourceTree = "<group>"; };
+		CE8BD4BA245EF49000CCBD28 /* foodHungary6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodHungary6.jpg; sourceTree = "<group>"; };
+		CE8BD4BB245EF49000CCBD28 /* foodHungary7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodHungary7.jpg; sourceTree = "<group>"; };
+		CE8BD4BC245EF49000CCBD28 /* foodHungary10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodHungary10.jpg; sourceTree = "<group>"; };
+		CE8BD4BD245EF49000CCBD28 /* get_ingredients.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = get_ingredients.py; sourceTree = "<group>"; };
+		CE8BD507245F113600CCBD28 /* databaseTables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = databaseTables.swift; sourceTree = "<group>"; };
+		CE8BD509245F14F100CCBD28 /* parsingFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parsingFunctions.swift; sourceTree = "<group>"; };
+		CE96B5452450802700D87E5B /* userRoom.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = userRoom.xib; sourceTree = "<group>"; };
+		CEC2C1E9246058E600965C7E /* databaseRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = databaseRequests.swift; sourceTree = "<group>"; };
 		CEDDDE172447882800CB9489 /* Рецепты мира.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Рецепты мира.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDDDE1A2447882800CB9489 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEDDDE1C2447882800CB9489 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,12 +208,14 @@
 		CEDDDE262447883000CB9489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDDDE292447883000CB9489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEDDDE2B2447883000CB9489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEE522B22449B47100BBE1EF /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
-		CEE522B62449B6DC00BBE1EF /* FindController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindController.swift; sourceTree = "<group>"; };
-		CEE522B72449B6DC00BBE1EF /* WorldFoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldFoodController.swift; sourceTree = "<group>"; };
-		CEE522BC2449B72D00BBE1EF /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
-		CEE522BE2449B74C00BBE1EF /* InformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationController.swift; sourceTree = "<group>"; };
 		CEE522C22449D74C00BBE1EF /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		CEF1E6CC244F7427000855B1 /* tableCountryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tableCountryCell.xib; sourceTree = "<group>"; };
+		CEF1E6CE244F7441000855B1 /* InformationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationController.swift; sourceTree = "<group>"; };
+		CEF1E6D0244F7441000855B1 /* WorldFoodController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldFoodController.swift; sourceTree = "<group>"; };
+		CEF1E6D1244F7441000855B1 /* FindController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindController.swift; sourceTree = "<group>"; };
+		CEF1E6D2244F7441000855B1 /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		CEFFB17A24517B4D000321A4 /* recipeRoom.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = recipeRoom.xib; sourceTree = "<group>"; };
+		CEFFB17E24519525000321A4 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +223,191 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8BD468245ED87C00CCBD28 /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE8BD44C245ED78C00CCBD28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8BD456245ED78C00CCBD28 /* SQLite.framework */,
+				CE8BD458245ED78C00CCBD28 /* SQLiteTests iOS.xctest */,
+				CE8BD45A245ED78C00CCBD28 /* SQLite.framework */,
+				CE8BD45C245ED78C00CCBD28 /* SQLiteTests Mac.xctest */,
+				CE8BD45E245ED78C00CCBD28 /* SQLite.framework */,
+				CE8BD460245ED78C00CCBD28 /* SQLiteTests tvOS.xctest */,
+				CE8BD462245ED78C00CCBD28 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8BD467245ED87C00CCBD28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8BD46D245EF49000CCBD28 /* Data-preparation */ = {
+			isa = PBXGroup;
+			children = (
+				CE8BD46E245EF49000CCBD28 /* flagCountries */,
+				CE8BD474245EF49000CCBD28 /* Russia */,
+				CE8BD47E245EF49000CCBD28 /* Brazil */,
+				CE8BD48D245EF49000CCBD28 /* Australia */,
+				CE8BD49C245EF49000CCBD28 /* UserBook */,
+				CE8BD49F245EF49000CCBD28 /* China */,
+				CE8BD4AE245EF49000CCBD28 /* Hungary */,
+				CE8BD4BD245EF49000CCBD28 /* get_ingredients.py */,
+			);
+			name = "Data-preparation";
+			path = "Food-recipes-pre-data/Data-preparation";
+			sourceTree = SOURCE_ROOT;
+		};
+		CE8BD46E245EF49000CCBD28 /* flagCountries */ = {
+			isa = PBXGroup;
+			children = (
+				CE8BD46F245EF49000CCBD28 /* flagHungary.png */,
+				CE8BD470245EF49000CCBD28 /* flagRussia.png */,
+				CE8BD471245EF49000CCBD28 /* flagAustralia.png */,
+				CE8BD472245EF49000CCBD28 /* flagBrazil.png */,
+				CE8BD473245EF49000CCBD28 /* flagChina.png */,
+			);
+			path = flagCountries;
+			sourceTree = "<group>";
+		};
+		CE8BD474245EF49000CCBD28 /* Russia */ = {
+			isa = PBXGroup;
+			children = (
+				CE8BD475245EF49000CCBD28 /* FoodRussia1.jpg */,
+				CE8BD476245EF49000CCBD28 /* foodRussia2.jpg */,
+				CE8BD477245EF49000CCBD28 /* foodRussia3.jpg */,
+				CE8BD478245EF49000CCBD28 /* drinkRussia3.jpg */,
+				CE8BD479245EF49000CCBD28 /* drinkRussia2.jpg */,
+				CE8BD47A245EF49000CCBD28 /* foodRussia4.jpg */,
+				CE8BD47B245EF49000CCBD28 /* drinkRussia1.jpg */,
+				CE8BD47C245EF49000CCBD28 /* foodRussia5.jpg */,
+				CE8BD47D245EF49000CCBD28 /* foodRussia */,
+			);
+			path = Russia;
+			sourceTree = "<group>";
+		};
+		CE8BD47E245EF49000CCBD28 /* Brazil */ = {
+			isa = PBXGroup;
+			children = (
+				CE8BD47F245EF49000CCBD28 /* foodBrazil9.jpg */,
+				CE8BD480245EF49000CCBD28 /* foodBrazil8.jpg */,
+				CE8BD481245EF49000CCBD28 /* foodBrazil10.jpg */,
+				CE8BD482245EF49000CCBD28 /* foodBrazil */,
+				CE8BD483245EF49000CCBD28 /* foodBrazil1.jpg */,
+				CE8BD484245EF49000CCBD28 /* foodBrazil3.jpg */,
+				CE8BD485245EF49000CCBD28 /* foodBrazil2.jpg */,
+				CE8BD486245EF49000CCBD28 /* drinkBrazil2.jpg */,
+				CE8BD487245EF49000CCBD28 /* foodBrazil6.jpg */,
+				CE8BD488245EF49000CCBD28 /* foodBrazil7.jpg */,
+				CE8BD489245EF49000CCBD28 /* drinkBrazil3.jpg */,
+				CE8BD48A245EF49000CCBD28 /* drinkBrazil1.jpg */,
+				CE8BD48B245EF49000CCBD28 /* foodBrazil5.jpg */,
+				CE8BD48C245EF49000CCBD28 /* foodBrazil4.jpg */,
+			);
+			path = Brazil;
+			sourceTree = "<group>";
+		};
+		CE8BD48D245EF49000CCBD28 /* Australia */ = {
+			isa = PBXGroup;
+			children = (
+				CE8BD48E245EF49000CCBD28 /* foodAustralia */,
+				CE8BD48F245EF49000CCBD28 /* foodAustralia8.jpg */,
+				CE8BD490245EF49000CCBD28 /* foodAustralia9.jpg */,
+				CE8BD491245EF49000CCBD28 /* foodAustralia4.jpg */,
+				CE8BD492245EF49000CCBD28 /* foodAustralia5.jpg */,
+				CE8BD493245EF49000CCBD28 /* foodAustralia7.jpg */,
+				CE8BD494245EF49000CCBD28 /* foodAustralia6.jpg */,
+				CE8BD495245EF49000CCBD28 /* drinkAustralia2.jpg */,
+				CE8BD496245EF49000CCBD28 /* foodAustralia2.jpg */,
+				CE8BD497245EF49000CCBD28 /* foodAustralia10.jpg */,
+				CE8BD498245EF49000CCBD28 /* foodAustralia3.jpg */,
+				CE8BD499245EF49000CCBD28 /* drinkAustralia3.jpg */,
+				CE8BD49A245EF49000CCBD28 /* drinkAustralia1.jpg */,
+				CE8BD49B245EF49000CCBD28 /* foodAustralia1.jpg */,
+			);
+			path = Australia;
+			sourceTree = "<group>";
+		};
+		CE8BD49C245EF49000CCBD28 /* UserBook */ = {
+			isa = PBXGroup;
+			children = (
+				CE8BD49D245EF49000CCBD28 /* foodBook */,
+				CE8BD49E245EF49000CCBD28 /* userPhoto1.jpg */,
+			);
+			path = UserBook;
+			sourceTree = "<group>";
+		};
+		CE8BD49F245EF49000CCBD28 /* China */ = {
+			isa = PBXGroup;
+			children = (
+				CE8BD4A0245EF49000CCBD28 /* drinkChina1.jpg */,
+				CE8BD4A1245EF49000CCBD28 /* drinkChina3.jpg */,
+				CE8BD4A2245EF49000CCBD28 /* foodChina */,
+				CE8BD4A3245EF49000CCBD28 /* drinkChina2.jpg */,
+				CE8BD4A4245EF49000CCBD28 /* foodChina9.jpg */,
+				CE8BD4A5245EF49000CCBD28 /* foodChina8.jpg */,
+				CE8BD4A6245EF49000CCBD28 /* foodChina5.jpg */,
+				CE8BD4A7245EF49000CCBD28 /* foodChina4.jpg */,
+				CE8BD4A8245EF49000CCBD28 /* foodChina6.jpg */,
+				CE8BD4A9245EF49000CCBD28 /* foodChina7.jpg */,
+				CE8BD4AA245EF49000CCBD28 /* foodChina3.jpg */,
+				CE8BD4AB245EF49000CCBD28 /* foodChina2.jpg */,
+				CE8BD4AC245EF49000CCBD28 /* foodChina1.jpg */,
+				CE8BD4AD245EF49000CCBD28 /* foodChina10.jpg */,
+			);
+			path = China;
+			sourceTree = "<group>";
+		};
+		CE8BD4AE245EF49000CCBD28 /* Hungary */ = {
+			isa = PBXGroup;
+			children = (
+				CE8BD4AF245EF49000CCBD28 /* drinkHungary3.jpg */,
+				CE8BD4B0245EF49000CCBD28 /* drinkHungary2.jpg */,
+				CE8BD4B1245EF49000CCBD28 /* foodHungary */,
+				CE8BD4B2245EF49000CCBD28 /* drinkHungary1.jpg */,
+				CE8BD4B3245EF49000CCBD28 /* foodHungary9.jpg */,
+				CE8BD4B4245EF49000CCBD28 /* foodHungary8.jpg */,
+				CE8BD4B5245EF49000CCBD28 /* foodHungary3.jpg */,
+				CE8BD4B6245EF49000CCBD28 /* foodHungary2.jpg */,
+				CE8BD4B7245EF49000CCBD28 /* foodHungary1.jpg */,
+				CE8BD4B8245EF49000CCBD28 /* foodHungary5.jpg */,
+				CE8BD4B9245EF49000CCBD28 /* foodHungary4.jpg */,
+				CE8BD4BA245EF49000CCBD28 /* foodHungary6.jpg */,
+				CE8BD4BB245EF49000CCBD28 /* foodHungary7.jpg */,
+				CE8BD4BC245EF49000CCBD28 /* foodHungary10.jpg */,
+			);
+			path = Hungary;
+			sourceTree = "<group>";
+		};
+		CE96B5472450807300D87E5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE8BD46D245EF49000CCBD28 /* Data-preparation */,
+				CE8BD46B245EF00E00CCBD28 /* food-recipes-db.sqlite */,
+				CE8BD449245ECFB400CCBD28 /* databaseConfiguration.swift */,
+				CE8BD507245F113600CCBD28 /* databaseTables.swift */,
+				CEC2C1E9246058E600965C7E /* databaseRequests.swift */,
+				CE8BD509245F14F100CCBD28 /* parsingFunctions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CEDDDE0E2447882700CB9489 = {
 			isa = PBXGroup;
 			children = (
 				CEDDDE192447882800CB9489 /* Food-recipes */,
 				CEDDDE182447882800CB9489 /* Products */,
+				CE8BD467245ED87C00CCBD28 /* Frameworks */,
+				CE8BD44B245ED78C00CCBD28 /* SQLite.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,11 +423,9 @@
 			isa = PBXGroup;
 			children = (
 				CEE522C22449D74C00BBE1EF /* images */,
-				CEE522B22449B47100BBE1EF /* Controllers */,
-				CEE522B72449B6DC00BBE1EF /* WorldFoodController.swift */,
-				CEE522BC2449B72D00BBE1EF /* UserController.swift */,
-				CEE522B62449B6DC00BBE1EF /* FindController.swift */,
-				CEE522BE2449B74C00BBE1EF /* InformationController.swift */,
+				CE96B5472450807300D87E5B /* Model */,
+				CEF1E6CD244F7441000855B1 /* Controllers */,
+				CEF1E6CB244F7427000855B1 /* viewComponents */,
 				CEDDDE1A2447882800CB9489 /* AppDelegate.swift */,
 				CEDDDE1C2447882800CB9489 /* SceneDelegate.swift */,
 				CEDDDE202447882800CB9489 /* Main.storyboard */,
@@ -83,6 +435,36 @@
 				CEDDDE232447882800CB9489 /* Food_recipes.xcdatamodeld */,
 			);
 			path = "Food-recipes";
+			sourceTree = "<group>";
+		};
+		CEF1E6CB244F7427000855B1 /* viewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				CEF1E6CC244F7427000855B1 /* tableCountryCell.xib */,
+				CE96B5452450802700D87E5B /* userRoom.xib */,
+				CEFFB17A24517B4D000321A4 /* recipeRoom.xib */,
+				CE2FF3A52453047D005CA49E /* recipeCell.xib */,
+				CE2FF3A72453126A005CA49E /* modificationRecipeRoom.xib */,
+				CE2FF3AB245329BF005CA49E /* information.xib */,
+				CE2FF3AD245333D6005CA49E /* searchView.xib */,
+				CE2CD775245452CE00D72E0E /* editUserView.xib */,
+			);
+			path = viewComponents;
+			sourceTree = "<group>";
+		};
+		CEF1E6CD244F7441000855B1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEF1E6CE244F7441000855B1 /* InformationController.swift */,
+				CEF1E6D1244F7441000855B1 /* FindController.swift */,
+				CE2FF3A9245316DE005CA49E /* EditRecipeViewController.swift */,
+				CEFFB17E24519525000321A4 /* RecipeViewController.swift */,
+				CE2CD7772454544A00D72E0E /* UserEditViewController.swift */,
+				CEF1E6D2244F7441000855B1 /* UserController.swift */,
+				CE2CD77324544BFB00D72E0E /* CountryDetailViewController.swift */,
+				CEF1E6D0244F7441000855B1 /* WorldFoodController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +477,7 @@
 				CEDDDE132447882800CB9489 /* Sources */,
 				CEDDDE142447882800CB9489 /* Frameworks */,
 				CEDDDE152447882800CB9489 /* Resources */,
+				CE8BD46A245ED87C00CCBD28 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +510,16 @@
 			knownRegions = (
 				en,
 				Base,
-				ru,
 			);
 			mainGroup = CEDDDE0E2447882700CB9489;
 			productRefGroup = CEDDDE182447882800CB9489 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CE8BD44C245ED78C00CCBD28 /* Products */;
+					ProjectRef = CE8BD44B245ED78C00CCBD28 /* SQLite.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CEDDDE162447882800CB9489 /* Рецепты мира */,
@@ -139,16 +527,82 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		CE8BD456245ED78C00CCBD28 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = CE8BD455245ED78C00CCBD28 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE8BD458245ED78C00CCBD28 /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = CE8BD457245ED78C00CCBD28 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE8BD45A245ED78C00CCBD28 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = CE8BD459245ED78C00CCBD28 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE8BD45C245ED78C00CCBD28 /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = CE8BD45B245ED78C00CCBD28 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE8BD45E245ED78C00CCBD28 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = CE8BD45D245ED78C00CCBD28 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE8BD460245ED78C00CCBD28 /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = CE8BD45F245ED78C00CCBD28 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE8BD462245ED78C00CCBD28 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = CE8BD461245ED78C00CCBD28 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		CEDDDE152447882800CB9489 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8BD46C245EF00E00CCBD28 /* food-recipes-db.sqlite in Resources */,
+				CE8BD4FA245EF49000CCBD28 /* foodHungary in Resources */,
+				CE8BD4CF245EF49000CCBD28 /* foodBrazil in Resources */,
+				CE8BD4EC245EF49000CCBD28 /* foodChina in Resources */,
 				CEE522C32449D74C00BBE1EF /* images in Resources */,
+				CE2CD776245452CE00D72E0E /* editUserView.xib in Resources */,
+				CE2FF3A82453126A005CA49E /* modificationRecipeRoom.xib in Resources */,
+				CEF1E6D8244F7996000855B1 /* tableCountryCell.xib in Resources */,
 				CEDDDE2A2447883000CB9489 /* LaunchScreen.storyboard in Resources */,
+				CE8BD4DA245EF49000CCBD28 /* foodAustralia in Resources */,
+				CE8BD4CB245EF49000CCBD28 /* foodRussia in Resources */,
+				CEFFB17B24517B4E000321A4 /* recipeRoom.xib in Resources */,
+				CE2FF3AE245333D6005CA49E /* searchView.xib in Resources */,
 				CEDDDE272447883000CB9489 /* Assets.xcassets in Resources */,
-				CEE522B32449B47100BBE1EF /* Controllers in Resources */,
 				CEDDDE222447882800CB9489 /* Main.storyboard in Resources */,
+				CE96B5462450802700D87E5B /* userRoom.xib in Resources */,
+				CE2FF3AC245329BF005CA49E /* information.xib in Resources */,
+				CE8BD506245EF49000CCBD28 /* get_ingredients.py in Resources */,
+				CE2FF3A62453047D005CA49E /* recipeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,13 +613,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE522BF2449B74C00BBE1EF /* InformationController.swift in Sources */,
-				CEE522BB2449B6DC00BBE1EF /* FindController.swift in Sources */,
-				CEE522BA2449B6DC00BBE1EF /* WorldFoodController.swift in Sources */,
+				CEF1E6D3244F7441000855B1 /* InformationController.swift in Sources */,
+				CE2FF3AA245316DE005CA49E /* EditRecipeViewController.swift in Sources */,
+				CE8BD50A245F14F100CCBD28 /* parsingFunctions.swift in Sources */,
+				CEF1E6D7244F7441000855B1 /* UserController.swift in Sources */,
+				CEF1E6D5244F7441000855B1 /* WorldFoodController.swift in Sources */,
+				CEF1E6D6244F7441000855B1 /* FindController.swift in Sources */,
 				CEDDDE1B2447882800CB9489 /* AppDelegate.swift in Sources */,
+				CEC2C1EA246058E600965C7E /* databaseRequests.swift in Sources */,
 				CEDDDE1D2447882800CB9489 /* SceneDelegate.swift in Sources */,
-				CEE522BD2449B72D00BBE1EF /* UserController.swift in Sources */,
+				CE8BD44A245ECFB400CCBD28 /* databaseConfiguration.swift in Sources */,
 				CEDDDE252447882800CB9489 /* Food_recipes.xcdatamodeld in Sources */,
+				CE2CD77424544BFB00D72E0E /* CountryDetailViewController.swift in Sources */,
+				CEFFB17F24519525000321A4 /* RecipeViewController.swift in Sources */,
+				CE2CD7782454544A00D72E0E /* UserEditViewController.swift in Sources */,
+				CE8BD508245F113700CCBD28 /* databaseTables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

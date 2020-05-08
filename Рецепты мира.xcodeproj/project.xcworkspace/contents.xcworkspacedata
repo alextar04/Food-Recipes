@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/user/Documents/GitHub/Food-recipes/&#x420;&#x435;&#x446;&#x435;&#x43f;&#x442;&#x44b; &#x43c;&#x438;&#x440;&#x430;.xcodeproj">
+      location = "group:/Users/user/Documents/GitHub/Food Recipes/Food-recipes/CustomCellView.swift">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
