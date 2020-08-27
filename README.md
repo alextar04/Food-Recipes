@@ -12,19 +12,34 @@
 
 Скриншоты:
 
-
+<p align="center">
 <img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/1.PNG" width="40%">
+</p>
 
+<p align="center">
 <img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/2.PNG" width="40%">
+</p>
 
+<p align="center">
 <img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/3.PNG" width="40%">
+</p>
 
+<p align="center">
 <img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/4.PNG" width="40%">
+</p>
 
+<p align="center">
 <img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/8.PNG" width="40%">
+</p>
 
+<p align="center">
 <img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/9.PNG" width="40%">
+</p>
 
+<p align="center">
 <img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/10.PNG" width="40%">
+</p>
 
+<p align="center">
 <img src="https://github.com/alextar04/Food-Recipes/blob/master/Food-recipes/images/11.PNG" width="40%">
+</p>
